@@ -44,9 +44,9 @@ import time
 from scipy import stats
 import h5py
 
-import LDpred_inf
 import itertools as it
 from . import ld
+from . import ldpred_inf
 import scipy as sp
 
 from .coord_genotypes import chromosomes_list

@@ -40,7 +40,7 @@ import time
 import os
 import gzip
 import itertools as it
-import LDpred 
+from . import ldpred
 
 def parse_parameters():
     """
