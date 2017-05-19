@@ -7,9 +7,5 @@ described in Vilhjalmsson et al. (AJHG 2015) [http://www.cell.com/ajhg/abstract/
 
 """
 
-#Load ldpred packages..
-import LDpred
-import validate
-import LD_pruning_thres
-import LDpred_inf
-import coord_genotypes
+__all__ = ['ldpred', 'validate', 'ld_pruning_thres', 'ldpred_inf',
+        'coord_genotypes']
